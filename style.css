@@ -1,0 +1,46 @@
+input {
+  border: 2px solid black;
+  padding: 2px;
+  border-collapse: collapse;
+  font-size: 20px;
+  font-family: Schibsted Grotesk, sans-serif;
+  text-align: center;
+  width: 120px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: Schibsted Grotesk, sans-serif;
+  background: #02334e;
+  color: white;
+  margin: 20px;
+}
+
+.correct {
+  background-color: #c8e6c9; /* green */
+}
+.incorrect {
+  background-color: #ffcdd2; /* red */
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  text-align: center;
+  font-family: Schibsted Grotesk, sans-serif;
+}
+
+button:hover {
+  background-color: #6da0bc;
+  color: black;
+}
